@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Café</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <script src="js/template.js" async="true"></script>
+</head>
+<body>
+    <header class="container d-flex">
+        <a href="#" class="logo d-flex align-center gap-3">
+            <img src="assets/meow-logo.png" width="190" height="170" alt="Logomarca Meow Café">
+            <p>Meow Café</p>
+        </a>
+
+        <!-- navegação -->
+        <nav class="flex-item d-flex justify-space-between align-center">
+            <ul class="d-flex gap-8">
+                <li><a href="#" class="active">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+
+            <ul class="d-flex gap-5">
+                <li><a href="">Login</a></li>
+                <li><a href="" class="button button-2">Delivery</a></li>
+            </ul>
+        </nav>
+
+        <img src="assets/meow-imagem-banner.png" alt="Ilustração de um cappuccino em um copo marrom com chantilly por cima, cercado por grãos de café e folhas. Ao fundo, um gato fofo aparece saindo de uma xícara com chantilly.">
+    </header>
+    
+    <!-- banner -->
+    <section class="banner container d-flex justify-space-between">
+        <div class="flex-3 banner-content">
+            <p class="subtitle"><b>Sabor inesquecível</b></p>
+            <h1 class="content-title">Meow <br> Café</h1>
+            <p>Um lugar perfeito para pais de pets e amantes de café. Nossa cafeteria tem um espaço confortável para você e seu melhor amigo. </p>
+        </div>
+    </section>
+
+    <!-- listagem de produtos -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <!-- introdução produtos -->
+            <div class="p-content text-center d-flex justify-center">
+                <div class="flex-3">
+                    <h2 class="content-subtitle content-title-detail ctd-center">Drinks</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <a href="#produtos"><b>Veja Todos ></b></a>
+                </div>
+            </div>
+    
+            <!-- cards de produtos -->
+            <div class="p-list d-flex justify-space-around">
+                <!-- item produto -->
+                <div class="p-item flex-item d-flex-col justify-space-between text-center">
+                    <img src="assets/meow-product-1.png" alt="Imagem de uma taça de vidro contendo um café latte com camadas de leite e café expresso, servida em uma elegante taça com alça.">
+                    
+                    <div class="pi-content">
+                        <p class="price">R$ 24,00</p>
+                        <h3>Capuccino</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#produtos" class="button button-1">Delivery</a>
+                    </div>
+                </div>
+    
+                <!-- item produto -->
+                <div class="p-item flex-item d-flex-col justify-space-between text-center">
+                    <img src="assets/meow-product-2.png" alt="Café servido em um pequeno copo de vidro com um desenho em forma de folha na espuma, acompanhado de um pires verde e uma colher">
+                    
+                    <div class="pi-content">
+                        <p class="price">R$ 16,00</p>
+                        <h3>Café ao leite</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#produtos" class="button button-1">Delivery</a>
+                    </div>
+                </div>
+    
+                <!-- item produto -->
+                <div class="p-item flex-item d-flex-col justify-space-between text-center">
+                    <img src="assets/meow-product-3.png" alt="Xícara preta com um coração feito de espuma de leite no topo do café.">
+                    
+                    <div class="pi-content">
+                        <p class="price">R$ 12,00</p>
+                        <h3>Café Preto</h3>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#produtos" class="button button-1">Delivery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- produto em destaque -->
+    <section class="product-destaque container d-flex justify-space-between align-center">
+        <div class="pd-content flex-3">
+            <p class="price-tag">R$ 12,00</p>
+            <h2 class="content-title content-title-detail">Croissants</h2>
+            <h2 class="content-subtitle">Duis aute irure quasi</h2>
+            <p class="pd-content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+            <a href="#produtos"><b>Todos os croissants ></b></a>
+        </div>
+        <img src="assets/meow-imagem-1.png" alt="Croissant polvilhado com açúcar de confeiteiro em um prato branco, acompanhado de uma faca com creme de avelã e um pequeno pote com mais creme de avelã.">
+    </section>
+
+    <!-- sobre nós -->
+    <section id="sobre" class="sobre d-flex align-center">
+        <div class="container d-flex justify-space-around align-center">
+            <div class="s-content s-content-intro">
+                <p class="s-subtitle">About Us</p>
+                <h2 class="s-title"><b>We offer a unique coffee house environment unlike any other in N.Y</b></h2>
+            </div> 
+            <div class="flex-3">
+                <div class="s-content">
+                    <p><b>O melhor lugar para apreciar o seu café</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <br>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta container">
+        <div class="cta-container d-flex align-center gap-8">
+            <img src="assets/meow-cta-2.png" alt="Conjunto de produtos de café em embalagens cor de rosa com copos, cartão de visita, suporte para transporte de copos e uma embalagem de grãos de café, todos com o logotipo 'Coffee'." width="590" height="380">
+
+            <div class="cta-content">
+                <h2>In your house!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                <a href="#produtos" class="button button-1">Delivery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contato -->
+    <section class="contato container d-flex">
+        <div class="c-info flex-2">
+            <div class="c-info-content">
+                <h2 class="content-title content-title-detail">Meow <br> Enjoy</h2>
+                <p class="subtitle">Todos os sábados e domingos</p>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                <a href="#"><b>Faça uma reserva ></b></a>
+            </div>
+
+            <img src="assets/meow-cta-3.png" alt="Uma xícara branca de café com arte de latte sendo derramado para fora, com respingos dinâmicos e grãos de café flutuando ao redor">
+        </div>
+
+        <div class="c-find flex-1 d-flex-col justify-space-between align-end">
+            <div class="cf-content">
+                <h2 class="content-title-detail">Find Us</h2>
+                <p>You can find us consectetur elit, sed do eiusmod tempor incididun.</p>
+                <div class="cf-endereco d-flex gap-4 align-center">
+                    <img src="assets/meow-pin.svg" alt="Ícone de Pin">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <img src="assets/meow-acessibility.svg" alt="ìcone de acessibilidade" width="40" height="40">
+        </div>
+    </section>
+</body>
+</html>
