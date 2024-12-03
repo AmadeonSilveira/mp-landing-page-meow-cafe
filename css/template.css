@@ -204,7 +204,7 @@ header > img {
 
 /** ENDEREÇO */
 .contato {
-    margin: 150px auto 50px;
+    margin: 150px auto 100px;
     background: linear-gradient(rgba(84, 21, 17, 0.66), #F3C7C4);
     border-radius: 50px;
 }
@@ -248,4 +248,88 @@ header > img {
 }
 .cf-endereco {
     padding-block: 25px;
+}
+
+/** FOOTER */
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-block: 70px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/** RESPONSIVIDADE */
+@media screen and (max-width: 991px) {
+    header .logo p {
+        font-size: 18px;
+    }
+    header .logo img {
+        width: 100px;
+        height: auto;
+    }
+    header nav a {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    header > img {
+        opacity: 0.5;
+    }
+    header nav {
+        display: none !important;
+    }
+
+    .banner .banner-content {
+        padding-inline: 0;
+    }
+
+    .sobre {
+        height: auto;
+        padding: 100px 0 150px;
+    }
+    .s-content-intro {
+        flex: auto;
+    }
+
+    .cta-container {
+        padding-bottom: 30px;
+    }
+    .cta-content {
+        text-align: center;
+    }
+    .cta-content p {
+        width: 100%;
+    }
+    .cta-content .button {
+        margin: 0 auto;
+    }
+    .cta-container img {
+        object-fit: cover;
+    }
+
+    .contato {
+        margin: 100px auto;
+        overflow: hidden;
+    }
+    .c-info-content {
+        position: relative;
+        z-index: 2;
+    }
+    .c-info img {
+        opacity: 0.5;
+    }
+    .c-info p.desc {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title {
+        font-size: 60px;
+        line-height: 130%;
+    }
+    .content-subtitle {
+        font-size: 30px;
+        line-height: 130%;
+    }
 }

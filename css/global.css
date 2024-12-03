@@ -61,6 +61,7 @@ img {
 /** FLEX BOX */
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 .d-flex-col {
     display: flex;
@@ -95,6 +96,9 @@ img {
 .gap-8 {
     gap: 40px;
 }
+.gap-10 {
+    gap: 50px;
+}
 
 .flex-item {
     -webkit-flex: auto auto;
@@ -112,3 +116,18 @@ img {
     flex: 0.33;
 }
 /** FIM FLEXBOX */
+
+
+/** RESPONSIVIDADE */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: calc(100% - 25px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flex-2,
+    .flex-3 {
+        flex: 1;
+    }
+}
