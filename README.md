@@ -19,7 +19,7 @@ Temos um design disponível no Figma.
 
 🔗 [Link do Figma](https://www.figma.com/community/file/1279469125991371134)
 
-![Screenshot](https://github.com/codante-io/mp-landing-page-meow-cafe/assets/6475893/e5625356-41ee-431c-b5b1-259c837cbf20)
+![Screenshot]([https://github.com/codante-io/mp-landing-page-meow-cafe/assets/6475893/e5625356-41ee-431c-b5b1-259c837cbf20](https://amadeonsilveira.github.io/mp-landing-page-meow-cafe/))
 
 ## 👉🏽 Sobre esse mini-projeto
 
