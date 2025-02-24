@@ -1,4 +1,4 @@
-# Meow Café - Minha Solução
+# Meow Café
 
 Esta é a minha implementação do desafio **Meow Café - Landing Page**, proposto pelo [Codante](https://codante.io). O objetivo era transformar um design do Figma em uma página funcional utilizando apenas **HTML, CSS e JavaScript puro**.
 
